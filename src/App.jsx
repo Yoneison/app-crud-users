@@ -12,7 +12,7 @@ function App() {
   const [userUpdate, setUserUpdate] = useState();
   const [isFormClose, setIsFormClose] = useState(true);
   const [notification, setNotification] = useState(null);
-  const baseUrl = 'https://users-crud.academlo.tech';
+  const baseUrl = 'https://api-user-crud-test.onrender.com/api/v1';
   const [users, getUsers, createUser, deleteUser, updateUser] = useFetch(baseUrl);
 
   useEffect(() => {
